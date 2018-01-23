@@ -1,0 +1,4 @@
+spring£º
+  mvc£º
+    view£º
+      prefix = /WEB-INF/views/

@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-05 10:45:27
+ * @version $Id$
+ */
+.pa-add a{
+	text-decoration: none;
+	padding:5px 12px;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #18a689;
+	color:#fff;
+}
+.xtlhpm-tab{
+	margin:2px;
+	padding:15px;
+	background-color: #fff;
+}
+.xtlhpm-tab td a{
+	display: inline-block;
+	width:100%;
+	text-align: center;
+}
+/**首页样式开始*/
+.wrapper-content{
+	padding:10px;
+}
+.ibox-content1{
+	background-color:#e5795f ;
+}
+.ibox-content2{
+	background-color:#879f7f ;
+}
+.ibox-content3{
+	background-color: #559e8b;
+}
+.ibox-content4{
+	background-color:#993f37 ;
+}
+.col-sm-3 .ibox-content h1{
+	color:#fff;
+}
+.home-zone .ibox{
+	height:300px;
+	background-color: #fff;
+}
+/**首页样式结束*/
+/**物流公司管理样式开始*/
+.xtlhpm-zone {
+	background-color: #fff;
+	margin-left:2px;
+	margin-right:2px;
+}
+.xtlhpm-add button{
+	height:30px;
+	padding:0 12px;
+	background-color: #18a689;
+	color:#fff;
+}
+.xtlhpm-add button:hover{
+	color: #fff;
+}
+.xtlhpm-add input{
+	height:30px;
+	display:inline-block;
+	border-radius: 3px;
+}
+.xtlhpm-zone .ibox{
+	margin-bottom:8px;
+	margin-top:8px;
+}
+.xtlhpm-container {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	float:left;
+	width:100%;
+	background-color: #fff;
+}
+
+.container-left{
+	width:20%;
+	border:1px solid #eee;
+	height:calc(100% - 150px)
+	margin-right:0.2%;
+	background-color: #fff;
+
+}
+.container-left ul{
+	padding:0;
+	margin:0;
+	height:100%;
+
+}
+.container-left li{
+	list-style: none;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	font-weight:500;
+    text-align: center;
+    border-bottom:1px solid #eee;
+}
+.container-right{
+	width:79.8%;
+	border:1px solid #eee;
+	height:calc(100% - 150px)
+
+}
+.container-right h3{
+	text-indent:15px;
+}
+.container-right .panel-body{
+	border:none;
+}
+.container-right dt{
+    width:auto;
+    font-weight:100;
+    color:#888;
+}
+.container-right dd{
+    margin-left:5px;
+    color:#666;
+}
+#tab-2 .col-sm-2{
+	padding-left:10px;
+}
+#tab-2 .xtlhpm-carstab ,.xtlhpm-blacklisttab{
+	margin:0 10px;
+}
+#tab-2 .xtlhpm-carstab td a{
+	display: inline-block;
+	width:100%;
+	text-align: center;
+}
+/**物流公司管理样式结束*/
+
+
+/**黑名单样式开始*/
+.xtlhpm-blacklisttab{
+	margin:2px;
+	padding:15px;
+	background-color: #fff;
+}
+
+.xtlhpm-blacklisttab td a{
+	display: inline-block;
+	width:50%;
+	text-align: center;
+}
+
+/**黑名单样式结束*/
+
+/**办卡业务样式开始*/
+.ibox-content5{
+	background-color:#75aca6;
+}
+.ibox-content6{
+	background-color:#f37b6a ;
+}
+.ibox-content7{
+	background-color:#c39e96 ;
+}
+.ibox-content8{
+	background-color:#6b565d;
+}
+
+.wrapper .ibox-title span{
+	padding:8px 10px;
+	font-size:12px;
+	margin-top:-5px;
+}
+
+.madecards-title .title{
+    height:40px;
+    line-height:40px;
+    border-right:1px solid #eee;
+    background-color:#fff;
+    font-size:14px;
+    font-weight:600;
+}
+.madecards-title .ibox{
+	margin-bottom:5px;
+}
+.madecards-box{
+    background: #fff;
+}
+.madecards-box p{
+    margin-bottom:4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#555;
+}
+.madecards-box{
+    position: relative;
+    height:150px;
+    padding-top:10px;
+    	}
+.madecards-box .cover{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,.5);
+    width:100%;
+    height:100%;
+    display:none;
+    text-align: center;
+    font-size:24px;
+    color:#fff;
+    padding-top:30px;
+    border:1px dashed #986200;
+    	}
+
+.madecards-content,.madecards-title{
+	margin-left:2px;
+	margin-right:2px;
+
+}
+.madecards-content .col-sm-4{
+	padding:0;
+	border-right:1px solid #eee;
+	border-top:1px solid #eee;
+}
+.madecards-content .style1{
+   background-color:#50bf50;
+}
+.madecards-content .style2{
+    background-color:#fca61b;
+}
+.madecards-content .style3{
+    background-color:#dae4e3;
+}
+
+.madecards-content .title{
+	color:#666;
+}
+.madecards-content .content{
+	color:#444;
+}
+/**办卡业务样式结束*/
+
+/**办卡查询样式开始*/
+.xtlhpm-cardsearchtab td a{
+	display: inline-block;
+	width:100%;
+	text-align: center;
+}
+
+/**办卡查询样式结束*/
+
+/**总账及明细样式开始*/
+.totaldetail-right{
+	padding:10px;
+}
+.total-detail-tab{
+	padding:0;
+}
+.ibox-content8{
+	background-color:#91d4a5 ;
+}
+.ibox-content9{
+	background-color:#ff7f9e ;
+}
+.ibox-content10{
+	background-color: #8aaaa7;
+}
+
+
+.float-e-margins{
+	margin-bottom: 10px;
+}

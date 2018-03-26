@@ -105,7 +105,7 @@
 		</div>
 	</div>
 	<div class="footer">
-		
+		<p class="bottom-p" id="copyright">Copyright © 2017 - 2017&nbsp;北京星通联华科技发展股份有限公司. All Rights Reserved.</p>
 	</div>
 </body>
 </html>

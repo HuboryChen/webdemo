@@ -4,9 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>绩效考评管理系统-登陆</title>
-	<link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+	<link href="WEB-INF/views/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <script src="WEB-INF/views/js/jquery.min.js"></script>
+    <script src="WEB-INF/views/js/bootstrap.min.js?v=3.3.6"></script>
 	<style>
 		html,body {
 			width: 100%;
@@ -21,7 +21,7 @@
 
 		.main {
 			height: 95%;
-			background: url(img/login-bg-icon.jpg) #346c9b;
+			background: url(WEB-INF/views/img/login-bg-icon.jpg) #346c9b;
 			background-size: 100%;
 			position: relative;
 		}
@@ -66,11 +66,11 @@
 		}
 
 		.user_name {
-			background: url(img/user.png) no-repeat white 95% center;
+			background: url(WEB-INF/views/img/user.png) no-repeat white 95% center;
 		}
 
 		.pass_word {
-			background: url(img/locked.png) no-repeat white 95% center;
+			background: url(WEB-INF/views/img/locked.png) no-repeat white 95% center;
 		}
 
 		.errors {
@@ -91,7 +91,7 @@
 		<div class="login_box">
 			<form class="form_box">
 				<div class="form_son">
-					<img src="img/login-logo.png" alt="" style="width: 100%;">
+					<img src="WEB-INF/views/img/login-logo.png" alt="" style="width: 100%;">
 					<div class="input_box" style="margin-top: 20px;">
 						<input class="form-control user_name" type="text" placeholder="用户名">
 					</div>

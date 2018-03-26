@@ -88,34 +88,12 @@ $(function(){
     		$("#main").attr("src",iframeSrc[i]);
     		$(".lis ul li a").css({
     			"color":"#114f8e",
-          "font-weight":"normal"
+                "font-weight":"normal"
     		})
     		$(this).css({
     			"color":"#21841d",
-          "font-weight":"bold"
+                "font-weight":"bold"
     		});
-    	})
-    })
-
-		$(".lis  span ").each(function(j){
-    	$(this).click(function(){
-    		var iframeSrc = [
-    			"project/project_index.jsp",
-    			"pd/pdresult.jsp",
-    			"daily/dailylist.jsp",
-    			"analyse/analyse.jsp",
-    			"system/emplist.jsp"
-    		];
-    		$("#main").attr("src",iframeSrc[j]);
-        $(".lis ul li a").css({
-          "color":"#114f8e",
-          "font-weight":"normal"
-        })
-    		$(".sectitle").css({
-    			"color":"#21841d",
-          "font-weight":"bold"
-    		})
-
     	})
     })
 

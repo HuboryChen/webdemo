@@ -48,11 +48,12 @@
             background: white;
             box-shadow: 0 0 4px #a39b9b;
             /*display: none;*/
-            transition:width 2s;
+            transition:width 1s;
         }
-				.table{
-					margin-bottom:0;
-				}
+
+        .table{
+            margin-bottom:0;
+        }
     </style>
 </head>
 <body>

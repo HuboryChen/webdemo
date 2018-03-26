@@ -71,19 +71,19 @@ $(function(){
     $(".lis ul li a").each(function(i){
     	$(this).click(function(){
     		var iframeSrc = [
-    			"project/project_index.html",
-                "project/project_list.html",
-                "project/task_allocation.html",
-                "project/performance_appraisal.html",
-                "project/data_analysis.html",
-    			"pd/pdresult.html",
-    			"pd/pdanalyse.html",
-    			"daily/dailylist.html",
-    			"daily/daliyanalyse.html",
-    			"analyse/analyse.html",
-    			"system/emplist.html",
-    			"system/role.html",
-    			"system/log.html"
+    			"project/project_index.jsp",
+                "project/project_list.jsp",
+                "project/task_allocation.jsp",
+                "project/performance_appraisal.jsp",
+                "project/data_analysis.jsp",
+    			"pd/pdresult.jsp",
+    			"pd/pdanalyse.jsp",
+    			"daily/dailylist.jsp",
+    			"daily/daliyanalyse.jsp",
+    			"analyse/analyse.jsp",
+    			"system/emplist.jsp",
+    			"system/role.jsp",
+    			"system/log.jsp"
     		];
     		$("#main").attr("src",iframeSrc[i]);
     		$(".lis ul li a").css({
@@ -100,11 +100,11 @@ $(function(){
 		$(".lis  span ").each(function(j){
     	$(this).click(function(){
     		var iframeSrc = [
-    			"project/project_index.html",
-    			"pd/pdresult.html",
-    			"daily/dailylist.html",
-    			"analyse/analyse.html",
-    			"system/emplist.html"
+    			"project/project_index.jsp",
+    			"pd/pdresult.jsp",
+    			"daily/dailylist.jsp",
+    			"analyse/analyse.jsp",
+    			"system/emplist.jsp"
     		];
     		$("#main").attr("src",iframeSrc[j]);
         $(".lis ul li a").css({

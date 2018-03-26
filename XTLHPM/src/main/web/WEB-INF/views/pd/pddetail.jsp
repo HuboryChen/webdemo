@@ -1,3 +1,4 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>新增绩效考核</title>
+    <title>绩效考核详情</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 
@@ -17,8 +18,10 @@
     <link href="../css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="../css/animate.css" rel="stylesheet">
     <link href="../css/style.css?v=4.1.0" rel="stylesheet">
-    <link href="../css/pd.css" rel="stylesheet">
+      <link href="../css/pd.css" rel="stylesheet">
+    <style>
 
+    </style>
 
 </head>
 
@@ -33,33 +36,25 @@
                     <div class="ibox-content" style="color:#333">
                       <form role="form" class="form-horizontal " style="margin-top:8px;">
                             <div class="form-group " style="margin-left:10px;">
-                                <label class="col-sm-2 control-label">选择员工：</label>
+                                <label class="col-sm-2 control-label">员工姓名：</label>
                                 <div class="col-sm-7">
-                                    <select class="form-control" name="">
-                                        <option>选项 1</option>
-                                        <option>选项 2</option>
-                                        <option>选项 3</option>
-                                        <option>选项 4</option>
-                                    </select>
+                                      <label class="col-sm-2  control-label pd-text">某某</label>
                                 </div>
 
-                                <label class="col-sm-2 control-label">原则等级：</label>
+                                <label class="col-sm-2 control-label">等级：</label>
                                 <div class="col-sm-7">
-                                    <select class="form-control" name="">
-                                        <option>选项 1</option>
-                                        <option>选项 2</option>
-                                        <option>选项 3</option>
-                                        <option>选项 4</option>
-                                    </select>
+                                        <label class="col-sm-2  control-label pd-text">A+</label>
                                 </div>
 
                                 <label class="col-sm-2 control-label">得分：</label>
-                                <div class="score" ></div>
+                                <div class="col-sm-7" >
+                                           <label class="col-sm-2  control-label pd-text">99</label>
+                                </div>
                             </div>
                             <div class="form-group" style="margin-left:10px;">
                                 <label class="col-sm-2 control-label">说&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   明：</label>
-                                <div class="col-sm-8">
-                                    <textarea id="ccomment" name="comment" class="form-control" required="" aria-required="true"></textarea>
+                                <div class="col-sm-8 control-label" style="text-align:justify;">
+                                    <p>改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广</p>
                                 </div>
                             </div>
                         </form>
@@ -78,12 +73,15 @@
                         <div class="col-sm-4">
                               <p class="text-center">考核类型</p>
                               <p class="n-score">
-                                <span>成绩: <input type="text"></span>
-                                <span class="line">等级: <input type="text"></span>
+                                <span>成绩: <label for="">88</label></span>
+                                <span class="line">等级: <label for="">A+</label></span>
                               </p>
                               <div class="form-group">
                                     <div class="">
-                                        <textarea placeholder="请输入描述" class="form-control" required="" aria-required="true"></textarea>
+                                           <p>
+                                             改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                             改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                           </p>
                                     </div>
                               </div>
                           </div>
@@ -91,12 +89,15 @@
                           <div class="col-sm-4">
                                 <p class="text-center">考核类型</p>
                                 <p class="n-score">
-                                  <span>成绩: <input type="text"></span>
-                                  <span class="line">等级: <input type="text"></span>
+                                  <span>成绩: <label for="">88</label></span>
+                                  <span class="line">等级: <label for="">A+</label></span>
                                 </p>
                                 <div class="form-group">
                                       <div class="">
-                                          <textarea placeholder="请输入描述" class="form-control" required="" aria-required="true"></textarea>
+                                             <p>
+                                               改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                               改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                             </p>
                                       </div>
                                 </div>
                             </div>
@@ -104,12 +105,15 @@
                             <div class="col-sm-4">
                                   <p class="text-center">考核类型</p>
                                   <p class="n-score">
-                                    <span>成绩: <input type="text"></span>
-                                    <span class="line">等级: <input type="text"></span>
+                                    <span>成绩: <label for="">88</label></span>
+                                    <span class="line">等级: <label for="">A+</label></span>
                                   </p>
                                   <div class="form-group">
                                         <div class="">
-                                            <textarea placeholder="请输入描述" class="form-control" required="" aria-required="true"></textarea>
+                                               <p>
+                                                 改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                                 改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                               </p>
                                         </div>
                                   </div>
                               </div>
@@ -117,12 +121,15 @@
                               <div class="col-sm-4 col-sm-push-2">
                                     <p class="text-center">考核类型</p>
                                     <p class="n-score">
-                                      <span>成绩: <input type="text"></span>
-                                      <span class="line">等级: <input type="text"></span>
+                                      <span>成绩: <label for="">88</label></span>
+                                      <span class="line">等级: <label for="">A+</label></span>
                                     </p>
                                     <div class="form-group">
                                           <div class="">
-                                              <textarea placeholder="请输入描述" class="form-control" required="" aria-required="true"></textarea>
+                                                 <p>
+                                                   改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                                   改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                                 </p>
                                           </div>
                                     </div>
                                 </div>
@@ -130,12 +137,15 @@
                                 <div class="col-sm-4 col-sm-push-2">
                                       <p class="text-center">考核类型</p>
                                       <p class="n-score">
-                                        <span>成绩: <input type="text"></span>
-                                        <span class="line">等级: <input type="text"></span>
+                                        <span>成绩: <label for="">88</label></span>
+                                        <span class="line">等级: <label for="">A+</label></span>
                                       </p>
                                       <div class="form-group">
                                             <div class="">
-                                                <textarea placeholder="请输入描述" class="form-control" required="" aria-required="true"></textarea>
+                                                   <p>
+                                                     改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                                     改员工表现非常好，经常加班到深夜两点还不下班，非常值得大家鼓励推广
+                                                   </p>
                                             </div>
                                       </div>
                                   </div>
@@ -149,19 +159,17 @@
                     <div class="col-sm-12">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h3>添加附件</h3>
+                                <h3>附件</h3>
                             </div>
-                            <div class="ibox-content" style="color:#333;height:100px;">
-
+                            <div class="ibox-content" style="color:#333;height:auto;">
+                              <div class="img-cont">
+                                      <img src="../img/aa.jpg" alt="" >
+                              </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <p class="bottom-btn text-center">
-                  <span class="btn-danger">取 消</span>
-                  <span class="btn-success">提 交</span>
-                </p>
 
     </div>
 

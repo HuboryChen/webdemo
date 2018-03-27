@@ -4,9 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>绩效考评管理系统-登陆</title>
-	<link href="WEB-INF/views/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
-    <script src="WEB-INF/views/js/jquery.min.js"></script>
-    <script src="WEB-INF/views/js/bootstrap.min.js?v=3.3.6"></script>
+	<link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
 	<style>
 		html,body {
 			width: 100%;
@@ -21,7 +21,7 @@
 
 		.main {
 			height: 95%;
-			background: url(WEB-INF/views/img/login-bg-icon.jpg) #346c9b;
+			background: url(img/login-bg-icon.jpg) #346c9b;
 			background-size: 100%;
 			position: relative;
 		}
@@ -41,6 +41,25 @@
 			background: white;
 			/*background: url(img/login-input-bg.png) no-repeat;
 			background-size: 100%;*/
+		}
+
+		@media screen and (min-height: 850px) {
+			.login_box {
+				width: 31%;
+				height: 66%;
+				font-size: 14px;
+				box-shadow: 0 0 10px #161616 inset;
+				border-radius: 50%;
+				margin: auto;
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				background: white;
+				/*background: url(img/login-input-bg.png) no-repeat;
+                background-size: 100%;*/
+			}
 		}
 
 		.form_box {
@@ -66,11 +85,11 @@
 		}
 
 		.user_name {
-			background: url(WEB-INF/views/img/user.png) no-repeat white 95% center;
+			background: url(img/user.png) no-repeat white 95% center;
 		}
 
 		.pass_word {
-			background: url(WEB-INF/views/img/locked.png) no-repeat white 95% center;
+			background: url(img/locked.png) no-repeat white 95% center;
 		}
 
 		.errors {
@@ -82,6 +101,21 @@
 		.footer {
 			height: 5%;
 			background: #204560;
+			position: relative;
+		}
+
+		.footer p {
+			width: 100%;
+			height: 13px;
+			font-size: 13px;
+			color: white;
+			text-align: center;
+			margin: auto;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
 		}
 	</style>
 </head>
@@ -91,7 +125,7 @@
 		<div class="login_box">
 			<form class="form_box">
 				<div class="form_son">
-					<img src="WEB-INF/views/img/login-logo.png" alt="" style="width: 100%;">
+					<img src="img/login-logo.png" alt="" style="width: 100%;">
 					<div class="input_box" style="margin-top: 20px;">
 						<input class="form-control user_name" type="text" placeholder="用户名">
 					</div>
